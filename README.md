@@ -1,5 +1,7 @@
 # streaming-01-getting-started
 
+Ryan Smith - Updating the ReadMe file
+
 > Get started with Python for streaming analytics
 
 Set yourself up for productivity and collaboration.
@@ -9,9 +11,9 @@ get productive as quickly as possible.
 ## Prerequisites
 
 1. Python 3.10 or higher
-1. VS Code
-1. VS Code Extension: Python
-1. Git (configured)
+2. VS Code
+3. VS Code Extension: Python
+4. Git (configured)
 
 Remember:
 
@@ -19,7 +21,7 @@ Remember:
 
 ---
 
-## Verify Installations / Update Default Python
+## Verify Installations / Update Default Python - Verified
 
 In VS Code, open a terminal window (View / Terminal).
 If macOS/Linux, change `python` to `python3` in the commands below.
@@ -30,17 +32,19 @@ python --version
 python -m pip install --upgrade pip wheel
 ```
 
-## Execute Utility Script (Diagnostics)
+## Execute Utility Script (Diagnostics) - Script was executed
 
-With your repo folder open in VS Code:
+With your repo folder open in VS Code: Able to run this, saved int he util_about.txt file.
+This was the first time that I have used VS code for python. I have used it for other languages, but not python. I was used to using a shell or notebooks.
+I did have to install the python extension. 
 
 1. Click util_about.py.
-1. If VS Code prompts, install the recommended Python extension.
-1. Check the Python Interpreter: On the bottom-left status bar, you might see a version of Python indicated (e.g., Python 3.10.x).
-1. If not, click on the bottom status bar where it should show the Python version or might say "Select Python Interpreter".
-1. From the dropdown, choose your default Python version.
-1. In VS Code, open a terminal window (View / Terminal).
-1. If macOS/Linux, change `python` to `python3` below.
+2. If VS Code prompts, install the recommended Python extension.
+3. Check the Python Interpreter: On the bottom-left status bar, you might see a version of Python indicated (e.g., Python 3.10.x).
+4. If not, click on the bottom status bar where it should show the Python version or might say "Select Python Interpreter".
+5. From the dropdown, choose your default Python version.
+6. In VS Code, open a terminal window (View / Terminal).
+7. If macOS/Linux, change `python` to `python3` below.
 
 ```shell
 python util_about.py
@@ -48,7 +52,9 @@ python util_about.py
 ---
 
 
-## Explore & Execute Project Scripts
+## Explore & Execute Project Scripts - Looked through the multiple scripts and the executed.
+
+Running though the different batch scripts. 
 
 With your repo folder open in VS Code, start exploring.
 Open, read, and run each project script (each file will have a .py extension) in order.
@@ -60,7 +66,7 @@ You'll have generated several new data files.
 The streaming process will run continuously for quite a while. 
 Read the comments in the file to learn how to stop the process.
 
-## Update Edit README
+## Update Edit README  - Edited by Ryan Smith
 
 Edit this README.md file. It uses Markdown, a simple and easy markup language.
 
@@ -75,13 +81,13 @@ Now it's time to get the local work you did on your machine,
 back up to your cloud repo in GitHub.
 
 
-### Option A: Use VS Code (Easy!)
+### Option A: Use VS Code (Easy!) - This was quite handy. 
 
 1. On the VS Code side panel, click the source control icon (look for a blue bubble with an number in it).
-1. Important! Above the Commit button, it will say "Message". 
-1. You MUST include a commit message. 
-1. In the commit message input box, type "initial results".
-1. Click the down arrow on the blue "Commit" button to "Commit and Push" to your GitHub repo. 
+2. Important! Above the Commit button, it will say "Message". 
+3. You MUST include a commit message. 
+4. In the commit message input box, type "initial results".
+5. Click the down arrow on the blue "Commit" button to "Commit and Push" to your GitHub repo. 
 
 Verify: Open a browser to your GitHub repo and verify the files have appeared. 
 In addition to the original files, you should have one or more new files and an edited Markdown file. 
@@ -93,7 +99,7 @@ just enter your message in the top line of the file it shows in the editor.
 Then click the checkmark in the upper right to close that file and save your commit message.
 "Sync your changes" to push to GitHub. 
 
-### Option B: Use Git Bash or Terminal Commands (Easy as well):
+### Option B: Use Git Bash or Terminal Commands (Easy as well): - The way I was previously used to doing the commits as well as using TortoiseGit
 
 Open a new `Git Bash` or Terminal window. Run the following commands one at a time.
 They will first add all the files (add "dot"). 
@@ -108,6 +114,8 @@ git push origin main
 
 
 -----
+
+Did not run into any issues through this part. Updating the file to Kelvin next.
 
 ## General Recommendations and Troubleshooting
 
@@ -125,4 +133,4 @@ Do a search on the extension to learn more. VS Code suggestions are usually help
 ## Additional Resources
 
 1. For more information about Git in VS Code, see [Using Git source control in VS Code](https://code.visualstudio.com/docs/sourcecontrol/overview).
-1. For more information about editing Markdown in VS Code, see [Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown).
+2. For more information about editing Markdown in VS Code, see [Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown).
